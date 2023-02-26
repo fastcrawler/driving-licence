@@ -11,4 +11,9 @@ public class PingController {
     public MessageResponse checkPing() {
         return MessageResponse.builder().message("PONG").status("success").build();
     }
+
+    @GetMapping(value = "/")
+    public MessageResponse applicationStatus() {
+        return MessageResponse.builder().message("Application is running").status("success").build();
+    }
 }
