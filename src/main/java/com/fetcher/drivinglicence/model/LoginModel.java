@@ -1,8 +1,8 @@
 package com.fetcher.drivinglicence.model;
 
-import jakarta.persistence.*;
 import lombok.Data;
 
+import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
