@@ -10,8 +10,6 @@ public class DrivingLicenceApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(DrivingLicenceApplication.class, args);
 		System.out.println("Application has been started");
-
-		git stat
 	}
 
 	@Override
